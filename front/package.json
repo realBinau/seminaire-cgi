@@ -4,7 +4,10 @@
   "type": "module",
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "firebase-use-project": "firebase use seminaire-cgi-test-3",
+    "firebase-deploy": "firebase deploy"
+  },
   "author": "Binau",
   "license": "ISC"
 }

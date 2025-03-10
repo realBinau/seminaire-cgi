@@ -26,5 +26,9 @@ Deploy
     firebase deploy
 ```
 
+Desactivation
+``` bash
+    firebase hosting:disable 
+```
 
 
