@@ -8,27 +8,27 @@ Accès console firebase : https://console.firebase.google.com/
 
 Installation CLI FIrebase
 ``` bash
-    npm install -g firebase-tools
+npm install -g firebase-tools
 ```
 
 Login
 ``` bash
-    firebase login
+firebase login
 ```
 
 Init
 ``` bash
-    firebase init
+firebase init
 ```
 
 Deploy
 ``` bash
-    firebase deploy
+firebase deploy
 ```
 
 Desactivation
 ``` bash
-    firebase hosting:disable 
+firebase hosting:disable 
 ```
 
-
+Function existe en javascript / typescript / python (firebase init)

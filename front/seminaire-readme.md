@@ -20,3 +20,15 @@ Deploy
 ``` bash
 firebase deploy
 ```
+
+# Parametre de stockage
+ -> limiter l'historique
+
+
+
+## Fonctions
+
+Deploy des fonctions
+``` bash
+firebase deploy --only functions
+```
