@@ -1,0 +1,11 @@
+{
+  "name": "seminaire-cgi-front",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Binau",
+  "license": "ISC"
+}
