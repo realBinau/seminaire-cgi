@@ -1,0 +1,10 @@
+# Logs
+logs
+*.log
+
+# Firebase
+.firebase/
+
+# Dependency directories
+node_modules/
+
