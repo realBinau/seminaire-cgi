@@ -7,7 +7,7 @@ const logger = require('firebase-functions/logger');
 exports.helloWorld = onRequest(
     (request, response) => {
         logger.info('Hello CGI', {structuredData: true})
-        response.send('Hello CGI from Firebase!')
+        response.send('Hello CGI from Firebase !')
     }
 )
 

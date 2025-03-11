@@ -2,21 +2,22 @@
 <html lang='fr'>
 <head>
     <meta charset='utf-8'>
+    <base href='/'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Welcome to Firebase Hosting</title>
-
+    <title>Welcome CGI</title>
+    <script type='module' src='index.js' defer></script>
+    <link rel='stylesheet' type='text/css' href='index.css'>
 </head>
 <body>
 
 <div id='message'>
     <h1>Hello Seminaire CGI</h1>
 </div>
-<div>
-    <h2>Test Function</h2>
-</div>
-<div>
-    <h2>Test AppEngine</h2>
-</div>
+
+<fetch-custom-element label='hello' url='api/hello'></fetch-custom-element>
+<fetch-custom-element label='json' url='api/json'></fetch-custom-element>
+
+
 <div>
     <h2>Test CloudRun</h2>
 </div>
