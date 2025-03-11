@@ -32,3 +32,16 @@ firebase hosting:disable
 ```
 
 Function existe en javascript / typescript / python (firebase init)
+
+
+
+rewrite cloud run :
+``` json
+{
+    "source": "/api/**",
+    "run": {
+        "serviceId": "seminaire-cgi-test-3",
+        "region": "europe-west1"
+    }
+}
+``` 
