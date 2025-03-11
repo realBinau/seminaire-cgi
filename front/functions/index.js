@@ -16,7 +16,7 @@ exports.jsonRestExample = onRequest(
         response.setHeader('Content-Type', 'application/json')
         response.send({
             status: 'OK',
-            message: 'Hello CGI',
+            message: 'Hello CGI 2',
         })
     }
 )
