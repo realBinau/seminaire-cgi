@@ -43,4 +43,5 @@ gcloud auth login
 # creation repo
 gcloud artifacts repositories create cloud-run-test --repository-format=docker --location=europe-west1 --description="Docker repository" 
 
-
+#
+gcloud run deploy SERVICE --image IMAGE_URL

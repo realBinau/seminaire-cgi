@@ -7,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "gcloud builds submit --region=europe-west1 --tag europe-west1-docker.pkg.dev/seminaire-cgi-test-3/cloud-run-test/test-image"
+    "build": "gcloud builds submit --region=europe-west1 --tag europe-west1-docker.pkg.dev/seminaire-cgi-test-3/cloud-run-test/test-image",
+    "deploy": "gcloud run deploy test-image --image europe-west1-docker.pkg.dev/seminaire-cgi-test-3/cloud-run-test/test-image:latest --region=europe-west1"
   },
   "author": "Binau",
   "license": "ISC"
