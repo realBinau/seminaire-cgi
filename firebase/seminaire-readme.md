@@ -32,3 +32,15 @@ Deploy des fonctions
 ``` bash
 firebase deploy --only functions
 ```
+
+
+
+Gcloud
+
+# auth
+gcloud auth login
+
+# creation repo
+gcloud artifacts repositories create cloud-run-test --repository-format=docker --location=europe-west1 --description="Docker repository" 
+
+

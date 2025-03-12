@@ -16,6 +16,13 @@
         "function": "jsonRestExample"
       },
       {
+        "source": "/api/run-1",
+        "run": {
+          "serviceId": "test-image",
+          "region": "europe-west1"
+        }
+      },
+      {
         "source": "/api/**",
         "destination": "/404.json"
       },

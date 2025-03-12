@@ -1,0 +1,14 @@
+{
+  "name": "seminaire-cgi-cloud-run",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "gcloud builds submit --region=europe-west1 --tag europe-west1-docker.pkg.dev/seminaire-cgi-test-3/cloud-run-test/test-image"
+  },
+  "author": "Binau",
+  "license": "ISC"
+}
