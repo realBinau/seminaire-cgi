@@ -16,6 +16,10 @@
         "function": "jsonRestExample"
       },
       {
+        "source": "/api/**",
+        "destination": "/404.json"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

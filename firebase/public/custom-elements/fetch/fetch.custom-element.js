@@ -24,7 +24,9 @@ export class FetchCustomElement extends CustomElement {
     }
 
     async testFunctionHello() {
-        this.resultTag.innerText = await fetch(this.url).then(res => res.text())
+        this.resultTag.innerText = await fetch(this.url)
+            .then(res => res.text())
+            .catch(err => err)
     }
 
     async resetFunctionHello() {
