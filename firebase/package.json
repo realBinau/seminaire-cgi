@@ -7,6 +7,7 @@
   "scripts": {
     "firebase-use-project": "firebase use seminaire-cgi-test-3",
     "firebase-deploy-hosting": "firebase deploy --only hosting",
+    "firebase-deploy-function": "firebase deploy --only functions",
     "firebase-deploy": "firebase deploy"
   },
   "author": "Binau",
